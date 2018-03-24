@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-stage-1",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy"
+  ],
+  "ignore": [
+    "node_modules",
+    "build"
+  ]
+}
