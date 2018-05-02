@@ -11,11 +11,9 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:css-modules/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [
-    "react",
     "jsx-a11y",
     "filenames",
     "prettier",
