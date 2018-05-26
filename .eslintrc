@@ -9,7 +9,6 @@
   "extends": [
     "airbnb",
     "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended",
     "plugin:css-modules/recommended",
     "prettier"
   ],
@@ -20,16 +19,6 @@
     "css-modules"
   ],
   "rules": {
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".jsx",
-          ".js"
-        ]
-      }
-    ],
-    "react/prefer-stateless-function": 0,
     "prettier/prettier": 2,
     "linebreak-style": 0,
     "global-require": 0,

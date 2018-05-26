@@ -1,0 +1,1 @@
+export factoryChart from "./factoryChart";
